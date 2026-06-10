@@ -1,0 +1,962 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cowork//WorldCup2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FIFA World Cup 2026
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:All 104 matches of the 2026 FIFA World Cup (times in US Eastern).
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wc2026-match-1@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260611T150000
+DTEND;TZID=America/New_York:20260611T170000
+SUMMARY:WC2026 #1 Group A: Mexico vs South Africa
+DESCRIPTION:Mexico vs South Africa\nMatch 1 - Group A\nVenue: Estadio Azteca\, Mexico City\nKickoff: 15:00 ET
+LOCATION:Estadio Azteca\, Mexico City
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-2@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260611T220000
+DTEND;TZID=America/New_York:20260612T000000
+SUMMARY:WC2026 #2 Group A: South Korea vs Czech Republic
+DESCRIPTION:South Korea vs Czech Republic\nMatch 2 - Group A\nVenue: Estadio Akron\, Guadalajara\nKickoff: 22:00 ET
+LOCATION:Estadio Akron\, Guadalajara
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-3@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260612T150000
+DTEND;TZID=America/New_York:20260612T170000
+SUMMARY:WC2026 #3 Group B: Canada vs Bosnia and Herzegovina
+DESCRIPTION:Canada vs Bosnia and Herzegovina\nMatch 3 - Group B\nVenue: BMO Field\, Toronto\nKickoff: 15:00 ET
+LOCATION:BMO Field\, Toronto
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-4@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260612T210000
+DTEND;TZID=America/New_York:20260612T230000
+SUMMARY:WC2026 #4 Group D: United States vs Paraguay
+DESCRIPTION:United States vs Paraguay\nMatch 4 - Group D\nVenue: SoFi Stadium\, Los Angeles\nKickoff: 21:00 ET
+LOCATION:SoFi Stadium\, Los Angeles
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-5@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260613T150000
+DTEND;TZID=America/New_York:20260613T170000
+SUMMARY:WC2026 #5 Group B: Qatar vs Switzerland
+DESCRIPTION:Qatar vs Switzerland\nMatch 5 - Group B\nVenue: Levi's Stadium\, San Francisco Bay Area\nKickoff: 15:00 ET
+LOCATION:Levi's Stadium\, San Francisco Bay Area
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-6@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260613T180000
+DTEND;TZID=America/New_York:20260613T200000
+SUMMARY:WC2026 #6 Group C: Brazil vs Morocco
+DESCRIPTION:Brazil vs Morocco\nMatch 6 - Group C\nVenue: MetLife Stadium\, New York/New Jersey\nKickoff: 18:00 ET
+LOCATION:MetLife Stadium\, New York/New Jersey
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-7@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260613T210000
+DTEND;TZID=America/New_York:20260613T230000
+SUMMARY:WC2026 #7 Group C: Haiti vs Scotland
+DESCRIPTION:Haiti vs Scotland\nMatch 7 - Group C\nVenue: Gillette Stadium\, Boston\nKickoff: 21:00 ET
+LOCATION:Gillette Stadium\, Boston
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-8@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260614T000000
+DTEND;TZID=America/New_York:20260614T020000
+SUMMARY:WC2026 #8 Group D: Australia vs Turkey
+DESCRIPTION:Australia vs Turkey\nMatch 8 - Group D\nVenue: BC Place\, Vancouver\nKickoff: 00:00 ET
+LOCATION:BC Place\, Vancouver
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-9@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260614T130000
+DTEND;TZID=America/New_York:20260614T150000
+SUMMARY:WC2026 #9 Group E: Germany vs Curacao
+DESCRIPTION:Germany vs Curacao\nMatch 9 - Group E\nVenue: NRG Stadium\, Houston\nKickoff: 13:00 ET
+LOCATION:NRG Stadium\, Houston
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-10@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260614T160000
+DTEND;TZID=America/New_York:20260614T180000
+SUMMARY:WC2026 #10 Group F: Netherlands vs Japan
+DESCRIPTION:Netherlands vs Japan\nMatch 10 - Group F\nVenue: AT&T Stadium\, Dallas\nKickoff: 16:00 ET
+LOCATION:AT&T Stadium\, Dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-11@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260614T190000
+DTEND;TZID=America/New_York:20260614T210000
+SUMMARY:WC2026 #11 Group E: Ivory Coast vs Ecuador
+DESCRIPTION:Ivory Coast vs Ecuador\nMatch 11 - Group E\nVenue: Lincoln Financial Field\, Philadelphia\nKickoff: 19:00 ET
+LOCATION:Lincoln Financial Field\, Philadelphia
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-12@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260614T220000
+DTEND;TZID=America/New_York:20260615T000000
+SUMMARY:WC2026 #12 Group F: Sweden vs Tunisia
+DESCRIPTION:Sweden vs Tunisia\nMatch 12 - Group F\nVenue: Estadio BBVA\, Monterrey\nKickoff: 22:00 ET
+LOCATION:Estadio BBVA\, Monterrey
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-13@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260615T120000
+DTEND;TZID=America/New_York:20260615T140000
+SUMMARY:WC2026 #13 Group H: Spain vs Cape Verde
+DESCRIPTION:Spain vs Cape Verde\nMatch 13 - Group H\nVenue: Mercedes-Benz Stadium\, Atlanta\nKickoff: 12:00 ET
+LOCATION:Mercedes-Benz Stadium\, Atlanta
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-14@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260615T150000
+DTEND;TZID=America/New_York:20260615T170000
+SUMMARY:WC2026 #14 Group G: Belgium vs Egypt
+DESCRIPTION:Belgium vs Egypt\nMatch 14 - Group G\nVenue: Lumen Field\, Seattle\nKickoff: 15:00 ET
+LOCATION:Lumen Field\, Seattle
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-15@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260615T180000
+DTEND;TZID=America/New_York:20260615T200000
+SUMMARY:WC2026 #15 Group H: Saudi Arabia vs Uruguay
+DESCRIPTION:Saudi Arabia vs Uruguay\nMatch 15 - Group H\nVenue: Hard Rock Stadium\, Miami\nKickoff: 18:00 ET
+LOCATION:Hard Rock Stadium\, Miami
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-16@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260615T210000
+DTEND;TZID=America/New_York:20260615T230000
+SUMMARY:WC2026 #16 Group G: Iran vs New Zealand
+DESCRIPTION:Iran vs New Zealand\nMatch 16 - Group G\nVenue: SoFi Stadium\, Los Angeles\nKickoff: 21:00 ET
+LOCATION:SoFi Stadium\, Los Angeles
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-17@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260616T150000
+DTEND;TZID=America/New_York:20260616T170000
+SUMMARY:WC2026 #17 Group I: France vs Senegal
+DESCRIPTION:France vs Senegal\nMatch 17 - Group I\nVenue: MetLife Stadium\, New York/New Jersey\nKickoff: 15:00 ET
+LOCATION:MetLife Stadium\, New York/New Jersey
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-18@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260616T180000
+DTEND;TZID=America/New_York:20260616T200000
+SUMMARY:WC2026 #18 Group I: Iraq vs Norway
+DESCRIPTION:Iraq vs Norway\nMatch 18 - Group I\nVenue: Gillette Stadium\, Boston\nKickoff: 18:00 ET
+LOCATION:Gillette Stadium\, Boston
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-19@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260616T210000
+DTEND;TZID=America/New_York:20260616T230000
+SUMMARY:WC2026 #19 Group J: Argentina vs Algeria
+DESCRIPTION:Argentina vs Algeria\nMatch 19 - Group J\nVenue: Arrowhead Stadium\, Kansas City\nKickoff: 21:00 ET
+LOCATION:Arrowhead Stadium\, Kansas City
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-20@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260617T000000
+DTEND;TZID=America/New_York:20260617T020000
+SUMMARY:WC2026 #20 Group J: Austria vs Jordan
+DESCRIPTION:Austria vs Jordan\nMatch 20 - Group J\nVenue: Levi's Stadium\, San Francisco Bay Area\nKickoff: 00:00 ET
+LOCATION:Levi's Stadium\, San Francisco Bay Area
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-21@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260617T130000
+DTEND;TZID=America/New_York:20260617T150000
+SUMMARY:WC2026 #21 Group K: Portugal vs DR Congo
+DESCRIPTION:Portugal vs DR Congo\nMatch 21 - Group K\nVenue: NRG Stadium\, Houston\nKickoff: 13:00 ET
+LOCATION:NRG Stadium\, Houston
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-22@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260617T160000
+DTEND;TZID=America/New_York:20260617T180000
+SUMMARY:WC2026 #22 Group L: England vs Croatia
+DESCRIPTION:England vs Croatia\nMatch 22 - Group L\nVenue: AT&T Stadium\, Dallas\nKickoff: 16:00 ET
+LOCATION:AT&T Stadium\, Dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-23@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260617T190000
+DTEND;TZID=America/New_York:20260617T210000
+SUMMARY:WC2026 #23 Group L: Ghana vs Panama
+DESCRIPTION:Ghana vs Panama\nMatch 23 - Group L\nVenue: BMO Field\, Toronto\nKickoff: 19:00 ET
+LOCATION:BMO Field\, Toronto
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-24@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260617T220000
+DTEND;TZID=America/New_York:20260618T000000
+SUMMARY:WC2026 #24 Group K: Uzbekistan vs Colombia
+DESCRIPTION:Uzbekistan vs Colombia\nMatch 24 - Group K\nVenue: Estadio Azteca\, Mexico City\nKickoff: 22:00 ET
+LOCATION:Estadio Azteca\, Mexico City
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-25@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260618T120000
+DTEND;TZID=America/New_York:20260618T140000
+SUMMARY:WC2026 #25 Group A: Czech Republic vs South Africa
+DESCRIPTION:Czech Republic vs South Africa\nMatch 25 - Group A\nVenue: Mercedes-Benz Stadium\, Atlanta\nKickoff: 12:00 ET
+LOCATION:Mercedes-Benz Stadium\, Atlanta
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-26@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260618T150000
+DTEND;TZID=America/New_York:20260618T170000
+SUMMARY:WC2026 #26 Group B: Switzerland vs Bosnia and Herzegovina
+DESCRIPTION:Switzerland vs Bosnia and Herzegovina\nMatch 26 - Group B\nVenue: SoFi Stadium\, Los Angeles\nKickoff: 15:00 ET
+LOCATION:SoFi Stadium\, Los Angeles
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-27@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260618T180000
+DTEND;TZID=America/New_York:20260618T200000
+SUMMARY:WC2026 #27 Group B: Canada vs Qatar
+DESCRIPTION:Canada vs Qatar\nMatch 27 - Group B\nVenue: BC Place\, Vancouver\nKickoff: 18:00 ET
+LOCATION:BC Place\, Vancouver
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-28@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260618T210000
+DTEND;TZID=America/New_York:20260618T230000
+SUMMARY:WC2026 #28 Group A: Mexico vs South Korea
+DESCRIPTION:Mexico vs South Korea\nMatch 28 - Group A\nVenue: Estadio Akron\, Guadalajara\nKickoff: 21:00 ET
+LOCATION:Estadio Akron\, Guadalajara
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-29@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260619T180000
+DTEND;TZID=America/New_York:20260619T200000
+SUMMARY:WC2026 #29 Group C: Scotland vs Morocco
+DESCRIPTION:Scotland vs Morocco\nMatch 29 - Group C\nVenue: Gillette Stadium\, Boston\nKickoff: 18:00 ET
+LOCATION:Gillette Stadium\, Boston
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-30@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260619T210000
+DTEND;TZID=America/New_York:20260619T230000
+SUMMARY:WC2026 #30 Group C: Brazil vs Haiti
+DESCRIPTION:Brazil vs Haiti\nMatch 30 - Group C\nVenue: Lincoln Financial Field\, Philadelphia\nKickoff: 21:00 ET
+LOCATION:Lincoln Financial Field\, Philadelphia
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-31@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260619T150000
+DTEND;TZID=America/New_York:20260619T170000
+SUMMARY:WC2026 #31 Group D: United States vs Australia
+DESCRIPTION:United States vs Australia\nMatch 31 - Group D\nVenue: Lumen Field\, Seattle\nKickoff: 15:00 ET
+LOCATION:Lumen Field\, Seattle
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-32@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260620T000000
+DTEND;TZID=America/New_York:20260620T020000
+SUMMARY:WC2026 #32 Group D: Turkey vs Paraguay
+DESCRIPTION:Turkey vs Paraguay\nMatch 32 - Group D\nVenue: Levi's Stadium\, San Francisco Bay Area\nKickoff: 00:00 ET
+LOCATION:Levi's Stadium\, San Francisco Bay Area
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-33@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260620T160000
+DTEND;TZID=America/New_York:20260620T180000
+SUMMARY:WC2026 #33 Group E: Germany vs Ivory Coast
+DESCRIPTION:Germany vs Ivory Coast\nMatch 33 - Group E\nVenue: BMO Field\, Toronto\nKickoff: 16:00 ET
+LOCATION:BMO Field\, Toronto
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-34@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260620T130000
+DTEND;TZID=America/New_York:20260620T150000
+SUMMARY:WC2026 #34 Group F: Netherlands vs Sweden
+DESCRIPTION:Netherlands vs Sweden\nMatch 34 - Group F\nVenue: NRG Stadium\, Houston\nKickoff: 13:00 ET
+LOCATION:NRG Stadium\, Houston
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-35@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260620T200000
+DTEND;TZID=America/New_York:20260620T220000
+SUMMARY:WC2026 #35 Group E: Ecuador vs Curacao
+DESCRIPTION:Ecuador vs Curacao\nMatch 35 - Group E\nVenue: Arrowhead Stadium\, Kansas City\nKickoff: 20:00 ET
+LOCATION:Arrowhead Stadium\, Kansas City
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-36@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260621T000000
+DTEND;TZID=America/New_York:20260621T020000
+SUMMARY:WC2026 #36 Group F: Tunisia vs Japan
+DESCRIPTION:Tunisia vs Japan\nMatch 36 - Group F\nVenue: Estadio BBVA\, Monterrey\nKickoff: 00:00 ET
+LOCATION:Estadio BBVA\, Monterrey
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-37@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260621T150000
+DTEND;TZID=America/New_York:20260621T170000
+SUMMARY:WC2026 #37 Group G: Belgium vs Iran
+DESCRIPTION:Belgium vs Iran\nMatch 37 - Group G\nVenue: SoFi Stadium\, Los Angeles\nKickoff: 15:00 ET
+LOCATION:SoFi Stadium\, Los Angeles
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-38@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260621T120000
+DTEND;TZID=America/New_York:20260621T140000
+SUMMARY:WC2026 #38 Group H: Spain vs Saudi Arabia
+DESCRIPTION:Spain vs Saudi Arabia\nMatch 38 - Group H\nVenue: Mercedes-Benz Stadium\, Atlanta\nKickoff: 12:00 ET
+LOCATION:Mercedes-Benz Stadium\, Atlanta
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-39@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260621T180000
+DTEND;TZID=America/New_York:20260621T200000
+SUMMARY:WC2026 #39 Group H: Uruguay vs Cape Verde
+DESCRIPTION:Uruguay vs Cape Verde\nMatch 39 - Group H\nVenue: Hard Rock Stadium\, Miami\nKickoff: 18:00 ET
+LOCATION:Hard Rock Stadium\, Miami
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-40@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260621T210000
+DTEND;TZID=America/New_York:20260621T230000
+SUMMARY:WC2026 #40 Group G: New Zealand vs Egypt
+DESCRIPTION:New Zealand vs Egypt\nMatch 40 - Group G\nVenue: BC Place\, Vancouver\nKickoff: 21:00 ET
+LOCATION:BC Place\, Vancouver
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-41@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260622T170000
+DTEND;TZID=America/New_York:20260622T190000
+SUMMARY:WC2026 #41 Group I: France vs Iraq
+DESCRIPTION:France vs Iraq\nMatch 41 - Group I\nVenue: Lincoln Financial Field\, Philadelphia\nKickoff: 17:00 ET
+LOCATION:Lincoln Financial Field\, Philadelphia
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-42@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260622T200000
+DTEND;TZID=America/New_York:20260622T220000
+SUMMARY:WC2026 #42 Group I: Norway vs Senegal
+DESCRIPTION:Norway vs Senegal\nMatch 42 - Group I\nVenue: MetLife Stadium\, New York/New Jersey\nKickoff: 20:00 ET
+LOCATION:MetLife Stadium\, New York/New Jersey
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-43@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260622T130000
+DTEND;TZID=America/New_York:20260622T150000
+SUMMARY:WC2026 #43 Group J: Argentina vs Austria
+DESCRIPTION:Argentina vs Austria\nMatch 43 - Group J\nVenue: AT&T Stadium\, Dallas\nKickoff: 13:00 ET
+LOCATION:AT&T Stadium\, Dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-44@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260622T230000
+DTEND;TZID=America/New_York:20260623T010000
+SUMMARY:WC2026 #44 Group J: Jordan vs Algeria
+DESCRIPTION:Jordan vs Algeria\nMatch 44 - Group J\nVenue: Levi's Stadium\, San Francisco Bay Area\nKickoff: 23:00 ET
+LOCATION:Levi's Stadium\, San Francisco Bay Area
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-45@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260623T130000
+DTEND;TZID=America/New_York:20260623T150000
+SUMMARY:WC2026 #45 Group K: Portugal vs Uzbekistan
+DESCRIPTION:Portugal vs Uzbekistan\nMatch 45 - Group K\nVenue: NRG Stadium\, Houston\nKickoff: 13:00 ET
+LOCATION:NRG Stadium\, Houston
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-46@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260623T160000
+DTEND;TZID=America/New_York:20260623T180000
+SUMMARY:WC2026 #46 Group L: England vs Ghana
+DESCRIPTION:England vs Ghana\nMatch 46 - Group L\nVenue: Gillette Stadium\, Boston\nKickoff: 16:00 ET
+LOCATION:Gillette Stadium\, Boston
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-47@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260623T190000
+DTEND;TZID=America/New_York:20260623T210000
+SUMMARY:WC2026 #47 Group L: Panama vs Croatia
+DESCRIPTION:Panama vs Croatia\nMatch 47 - Group L\nVenue: BMO Field\, Toronto\nKickoff: 19:00 ET
+LOCATION:BMO Field\, Toronto
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-48@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260623T220000
+DTEND;TZID=America/New_York:20260624T000000
+SUMMARY:WC2026 #48 Group K: Colombia vs DR Congo
+DESCRIPTION:Colombia vs DR Congo\nMatch 48 - Group K\nVenue: Estadio Akron\, Guadalajara\nKickoff: 22:00 ET
+LOCATION:Estadio Akron\, Guadalajara
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-49@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260624T210000
+DTEND;TZID=America/New_York:20260624T230000
+SUMMARY:WC2026 #49 Group A: Czech Republic vs Mexico
+DESCRIPTION:Czech Republic vs Mexico\nMatch 49 - Group A\nVenue: Estadio Azteca\, Mexico City\nKickoff: 21:00 ET
+LOCATION:Estadio Azteca\, Mexico City
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-50@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260624T210000
+DTEND;TZID=America/New_York:20260624T230000
+SUMMARY:WC2026 #50 Group A: South Africa vs South Korea
+DESCRIPTION:South Africa vs South Korea\nMatch 50 - Group A\nVenue: Estadio BBVA\, Monterrey\nKickoff: 21:00 ET
+LOCATION:Estadio BBVA\, Monterrey
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-51@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260624T150000
+DTEND;TZID=America/New_York:20260624T170000
+SUMMARY:WC2026 #51 Group B: Switzerland vs Canada
+DESCRIPTION:Switzerland vs Canada\nMatch 51 - Group B\nVenue: BC Place\, Vancouver\nKickoff: 15:00 ET
+LOCATION:BC Place\, Vancouver
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-52@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260624T150000
+DTEND;TZID=America/New_York:20260624T170000
+SUMMARY:WC2026 #52 Group B: Bosnia and Herzegovina vs Qatar
+DESCRIPTION:Bosnia and Herzegovina vs Qatar\nMatch 52 - Group B\nVenue: Lumen Field\, Seattle\nKickoff: 15:00 ET
+LOCATION:Lumen Field\, Seattle
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-53@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260624T180000
+DTEND;TZID=America/New_York:20260624T200000
+SUMMARY:WC2026 #53 Group C: Scotland vs Brazil
+DESCRIPTION:Scotland vs Brazil\nMatch 53 - Group C\nVenue: Hard Rock Stadium\, Miami\nKickoff: 18:00 ET
+LOCATION:Hard Rock Stadium\, Miami
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-54@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260624T180000
+DTEND;TZID=America/New_York:20260624T200000
+SUMMARY:WC2026 #54 Group C: Morocco vs Haiti
+DESCRIPTION:Morocco vs Haiti\nMatch 54 - Group C\nVenue: Mercedes-Benz Stadium\, Atlanta\nKickoff: 18:00 ET
+LOCATION:Mercedes-Benz Stadium\, Atlanta
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-55@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260625T160000
+DTEND;TZID=America/New_York:20260625T180000
+SUMMARY:WC2026 #55 Group E: Ecuador vs Germany
+DESCRIPTION:Ecuador vs Germany\nMatch 55 - Group E\nVenue: MetLife Stadium\, New York/New Jersey\nKickoff: 16:00 ET
+LOCATION:MetLife Stadium\, New York/New Jersey
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-56@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260625T160000
+DTEND;TZID=America/New_York:20260625T180000
+SUMMARY:WC2026 #56 Group E: Curacao vs Ivory Coast
+DESCRIPTION:Curacao vs Ivory Coast\nMatch 56 - Group E\nVenue: Lincoln Financial Field\, Philadelphia\nKickoff: 16:00 ET
+LOCATION:Lincoln Financial Field\, Philadelphia
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-57@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260625T190000
+DTEND;TZID=America/New_York:20260625T210000
+SUMMARY:WC2026 #57 Group F: Japan vs Sweden
+DESCRIPTION:Japan vs Sweden\nMatch 57 - Group F\nVenue: AT&T Stadium\, Dallas\nKickoff: 19:00 ET
+LOCATION:AT&T Stadium\, Dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-58@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260625T190000
+DTEND;TZID=America/New_York:20260625T210000
+SUMMARY:WC2026 #58 Group F: Tunisia vs Netherlands
+DESCRIPTION:Tunisia vs Netherlands\nMatch 58 - Group F\nVenue: Arrowhead Stadium\, Kansas City\nKickoff: 19:00 ET
+LOCATION:Arrowhead Stadium\, Kansas City
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-59@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260625T220000
+DTEND;TZID=America/New_York:20260626T000000
+SUMMARY:WC2026 #59 Group D: Turkey vs United States
+DESCRIPTION:Turkey vs United States\nMatch 59 - Group D\nVenue: SoFi Stadium\, Los Angeles\nKickoff: 22:00 ET
+LOCATION:SoFi Stadium\, Los Angeles
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-60@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260625T220000
+DTEND;TZID=America/New_York:20260626T000000
+SUMMARY:WC2026 #60 Group D: Paraguay vs Australia
+DESCRIPTION:Paraguay vs Australia\nMatch 60 - Group D\nVenue: Levi's Stadium\, San Francisco Bay Area\nKickoff: 22:00 ET
+LOCATION:Levi's Stadium\, San Francisco Bay Area
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-61@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260626T230000
+DTEND;TZID=America/New_York:20260627T010000
+SUMMARY:WC2026 #61 Group G: Egypt vs Iran
+DESCRIPTION:Egypt vs Iran\nMatch 61 - Group G\nVenue: Lumen Field\, Seattle\nKickoff: 23:00 ET
+LOCATION:Lumen Field\, Seattle
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-62@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260626T230000
+DTEND;TZID=America/New_York:20260627T010000
+SUMMARY:WC2026 #62 Group G: New Zealand vs Belgium
+DESCRIPTION:New Zealand vs Belgium\nMatch 62 - Group G\nVenue: BC Place\, Vancouver\nKickoff: 23:00 ET
+LOCATION:BC Place\, Vancouver
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-63@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260626T200000
+DTEND;TZID=America/New_York:20260626T220000
+SUMMARY:WC2026 #63 Group H: Cape Verde vs Saudi Arabia
+DESCRIPTION:Cape Verde vs Saudi Arabia\nMatch 63 - Group H\nVenue: NRG Stadium\, Houston\nKickoff: 20:00 ET
+LOCATION:NRG Stadium\, Houston
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-64@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260626T200000
+DTEND;TZID=America/New_York:20260626T220000
+SUMMARY:WC2026 #64 Group H: Uruguay vs Spain
+DESCRIPTION:Uruguay vs Spain\nMatch 64 - Group H\nVenue: Estadio Akron\, Guadalajara\nKickoff: 20:00 ET
+LOCATION:Estadio Akron\, Guadalajara
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-65@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260626T150000
+DTEND;TZID=America/New_York:20260626T170000
+SUMMARY:WC2026 #65 Group I: Norway vs France
+DESCRIPTION:Norway vs France\nMatch 65 - Group I\nVenue: Gillette Stadium\, Boston\nKickoff: 15:00 ET
+LOCATION:Gillette Stadium\, Boston
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-66@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260626T150000
+DTEND;TZID=America/New_York:20260626T170000
+SUMMARY:WC2026 #66 Group I: Senegal vs Iraq
+DESCRIPTION:Senegal vs Iraq\nMatch 66 - Group I\nVenue: BMO Field\, Toronto\nKickoff: 15:00 ET
+LOCATION:BMO Field\, Toronto
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-67@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260627T170000
+DTEND;TZID=America/New_York:20260627T190000
+SUMMARY:WC2026 #67 Group L: Panama vs England
+DESCRIPTION:Panama vs England\nMatch 67 - Group L\nVenue: MetLife Stadium\, New York/New Jersey\nKickoff: 17:00 ET
+LOCATION:MetLife Stadium\, New York/New Jersey
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-68@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260627T170000
+DTEND;TZID=America/New_York:20260627T190000
+SUMMARY:WC2026 #68 Group L: Croatia vs Ghana
+DESCRIPTION:Croatia vs Ghana\nMatch 68 - Group L\nVenue: Lincoln Financial Field\, Philadelphia\nKickoff: 17:00 ET
+LOCATION:Lincoln Financial Field\, Philadelphia
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-69@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260627T193000
+DTEND;TZID=America/New_York:20260627T213000
+SUMMARY:WC2026 #69 Group K: Colombia vs Portugal
+DESCRIPTION:Colombia vs Portugal\nMatch 69 - Group K\nVenue: Hard Rock Stadium\, Miami\nKickoff: 19:30 ET
+LOCATION:Hard Rock Stadium\, Miami
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-70@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260627T193000
+DTEND;TZID=America/New_York:20260627T213000
+SUMMARY:WC2026 #70 Group K: DR Congo vs Uzbekistan
+DESCRIPTION:DR Congo vs Uzbekistan\nMatch 70 - Group K\nVenue: Mercedes-Benz Stadium\, Atlanta\nKickoff: 19:30 ET
+LOCATION:Mercedes-Benz Stadium\, Atlanta
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-71@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260627T220000
+DTEND;TZID=America/New_York:20260628T000000
+SUMMARY:WC2026 #71 Group J: Algeria vs Austria
+DESCRIPTION:Algeria vs Austria\nMatch 71 - Group J\nVenue: Arrowhead Stadium\, Kansas City\nKickoff: 22:00 ET
+LOCATION:Arrowhead Stadium\, Kansas City
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-72@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260627T220000
+DTEND;TZID=America/New_York:20260628T000000
+SUMMARY:WC2026 #72 Group J: Jordan vs Argentina
+DESCRIPTION:Jordan vs Argentina\nMatch 72 - Group J\nVenue: AT&T Stadium\, Dallas\nKickoff: 22:00 ET
+LOCATION:AT&T Stadium\, Dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-73@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260628T150000
+DTEND;TZID=America/New_York:20260628T170000
+SUMMARY:WC2026 #73 Round of 32: Runner-up Group A vs Runner-up Group B
+DESCRIPTION:Runner-up Group A vs Runner-up Group B\nMatch 73 - Round of 32\nVenue: SoFi Stadium\, Los Angeles\nKickoff: 15:00 ET
+LOCATION:SoFi Stadium\, Los Angeles
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-74@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260629T163000
+DTEND;TZID=America/New_York:20260629T183000
+SUMMARY:WC2026 #74 Round of 32: Winner Group E vs Best 3rd A/B/C/D/F
+DESCRIPTION:Winner Group E vs Best 3rd A/B/C/D/F\nMatch 74 - Round of 32\nVenue: Gillette Stadium\, Boston\nKickoff: 16:30 ET
+LOCATION:Gillette Stadium\, Boston
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-75@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260629T210000
+DTEND;TZID=America/New_York:20260629T230000
+SUMMARY:WC2026 #75 Round of 32: Winner Group F vs Runner-up Group C
+DESCRIPTION:Winner Group F vs Runner-up Group C\nMatch 75 - Round of 32\nVenue: Estadio BBVA\, Monterrey\nKickoff: 21:00 ET
+LOCATION:Estadio BBVA\, Monterrey
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-76@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260629T130000
+DTEND;TZID=America/New_York:20260629T150000
+SUMMARY:WC2026 #76 Round of 32: Winner Group C vs Runner-up Group F
+DESCRIPTION:Winner Group C vs Runner-up Group F\nMatch 76 - Round of 32\nVenue: NRG Stadium\, Houston\nKickoff: 13:00 ET
+LOCATION:NRG Stadium\, Houston
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-77@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260630T170000
+DTEND;TZID=America/New_York:20260630T190000
+SUMMARY:WC2026 #77 Round of 32: Winner Group I vs Best 3rd C/D/F/G/H
+DESCRIPTION:Winner Group I vs Best 3rd C/D/F/G/H\nMatch 77 - Round of 32\nVenue: MetLife Stadium\, New York/New Jersey\nKickoff: 17:00 ET
+LOCATION:MetLife Stadium\, New York/New Jersey
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-78@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260630T130000
+DTEND;TZID=America/New_York:20260630T150000
+SUMMARY:WC2026 #78 Round of 32: Runner-up Group E vs Runner-up Group I
+DESCRIPTION:Runner-up Group E vs Runner-up Group I\nMatch 78 - Round of 32\nVenue: AT&T Stadium\, Dallas\nKickoff: 13:00 ET
+LOCATION:AT&T Stadium\, Dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-79@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260630T210000
+DTEND;TZID=America/New_York:20260630T230000
+SUMMARY:WC2026 #79 Round of 32: Winner Group A vs Best 3rd C/E/F/H/I
+DESCRIPTION:Winner Group A vs Best 3rd C/E/F/H/I\nMatch 79 - Round of 32\nVenue: Estadio Azteca\, Mexico City\nKickoff: 21:00 ET
+LOCATION:Estadio Azteca\, Mexico City
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-80@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260701T120000
+DTEND;TZID=America/New_York:20260701T140000
+SUMMARY:WC2026 #80 Round of 32: Winner Group L vs Best 3rd E/H/I/J/K
+DESCRIPTION:Winner Group L vs Best 3rd E/H/I/J/K\nMatch 80 - Round of 32\nVenue: Mercedes-Benz Stadium\, Atlanta\nKickoff: 12:00 ET
+LOCATION:Mercedes-Benz Stadium\, Atlanta
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-81@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260701T200000
+DTEND;TZID=America/New_York:20260701T220000
+SUMMARY:WC2026 #81 Round of 32: Winner Group D vs Best 3rd B/E/F/I/J
+DESCRIPTION:Winner Group D vs Best 3rd B/E/F/I/J\nMatch 81 - Round of 32\nVenue: Levi's Stadium\, San Francisco Bay Area\nKickoff: 20:00 ET
+LOCATION:Levi's Stadium\, San Francisco Bay Area
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-82@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260701T160000
+DTEND;TZID=America/New_York:20260701T180000
+SUMMARY:WC2026 #82 Round of 32: Winner Group G vs Best 3rd A/E/H/I/J
+DESCRIPTION:Winner Group G vs Best 3rd A/E/H/I/J\nMatch 82 - Round of 32\nVenue: Lumen Field\, Seattle\nKickoff: 16:00 ET
+LOCATION:Lumen Field\, Seattle
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-83@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260702T190000
+DTEND;TZID=America/New_York:20260702T210000
+SUMMARY:WC2026 #83 Round of 32: Runner-up Group K vs Runner-up Group L
+DESCRIPTION:Runner-up Group K vs Runner-up Group L\nMatch 83 - Round of 32\nVenue: BMO Field\, Toronto\nKickoff: 19:00 ET
+LOCATION:BMO Field\, Toronto
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-84@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260702T150000
+DTEND;TZID=America/New_York:20260702T170000
+SUMMARY:WC2026 #84 Round of 32: Winner Group H vs Runner-up Group J
+DESCRIPTION:Winner Group H vs Runner-up Group J\nMatch 84 - Round of 32\nVenue: SoFi Stadium\, Los Angeles\nKickoff: 15:00 ET
+LOCATION:SoFi Stadium\, Los Angeles
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-85@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260702T230000
+DTEND;TZID=America/New_York:20260703T010000
+SUMMARY:WC2026 #85 Round of 32: Winner Group B vs Best 3rd E/F/G/I/J
+DESCRIPTION:Winner Group B vs Best 3rd E/F/G/I/J\nMatch 85 - Round of 32\nVenue: BC Place\, Vancouver\nKickoff: 23:00 ET
+LOCATION:BC Place\, Vancouver
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-86@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260703T180000
+DTEND;TZID=America/New_York:20260703T200000
+SUMMARY:WC2026 #86 Round of 32: Winner Group J vs Runner-up Group H
+DESCRIPTION:Winner Group J vs Runner-up Group H\nMatch 86 - Round of 32\nVenue: Hard Rock Stadium\, Miami\nKickoff: 18:00 ET
+LOCATION:Hard Rock Stadium\, Miami
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-87@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260703T213000
+DTEND;TZID=America/New_York:20260703T233000
+SUMMARY:WC2026 #87 Round of 32: Winner Group K vs Best 3rd D/E/I/J/L
+DESCRIPTION:Winner Group K vs Best 3rd D/E/I/J/L\nMatch 87 - Round of 32\nVenue: Arrowhead Stadium\, Kansas City\nKickoff: 21:30 ET
+LOCATION:Arrowhead Stadium\, Kansas City
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-88@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260703T140000
+DTEND;TZID=America/New_York:20260703T160000
+SUMMARY:WC2026 #88 Round of 32: Runner-up Group D vs Runner-up Group G
+DESCRIPTION:Runner-up Group D vs Runner-up Group G\nMatch 88 - Round of 32\nVenue: AT&T Stadium\, Dallas\nKickoff: 14:00 ET
+LOCATION:AT&T Stadium\, Dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-89@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260704T170000
+DTEND;TZID=America/New_York:20260704T190000
+SUMMARY:WC2026 #89 Round of 16: Winner Match 74 vs Winner Match 77
+DESCRIPTION:Winner Match 74 vs Winner Match 77\nMatch 89 - Round of 16\nVenue: Lincoln Financial Field\, Philadelphia\nKickoff: 17:00 ET
+LOCATION:Lincoln Financial Field\, Philadelphia
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-90@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260704T130000
+DTEND;TZID=America/New_York:20260704T150000
+SUMMARY:WC2026 #90 Round of 16: Winner Match 73 vs Winner Match 75
+DESCRIPTION:Winner Match 73 vs Winner Match 75\nMatch 90 - Round of 16\nVenue: NRG Stadium\, Houston\nKickoff: 13:00 ET
+LOCATION:NRG Stadium\, Houston
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-91@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260705T160000
+DTEND;TZID=America/New_York:20260705T180000
+SUMMARY:WC2026 #91 Round of 16: Winner Match 76 vs Winner Match 78
+DESCRIPTION:Winner Match 76 vs Winner Match 78\nMatch 91 - Round of 16\nVenue: MetLife Stadium\, New York/New Jersey\nKickoff: 16:00 ET
+LOCATION:MetLife Stadium\, New York/New Jersey
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-92@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260705T200000
+DTEND;TZID=America/New_York:20260705T220000
+SUMMARY:WC2026 #92 Round of 16: Winner Match 79 vs Winner Match 80
+DESCRIPTION:Winner Match 79 vs Winner Match 80\nMatch 92 - Round of 16\nVenue: Estadio Azteca\, Mexico City\nKickoff: 20:00 ET
+LOCATION:Estadio Azteca\, Mexico City
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-93@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260706T150000
+DTEND;TZID=America/New_York:20260706T170000
+SUMMARY:WC2026 #93 Round of 16: Winner Match 83 vs Winner Match 84
+DESCRIPTION:Winner Match 83 vs Winner Match 84\nMatch 93 - Round of 16\nVenue: AT&T Stadium\, Dallas\nKickoff: 15:00 ET
+LOCATION:AT&T Stadium\, Dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-94@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260706T200000
+DTEND;TZID=America/New_York:20260706T220000
+SUMMARY:WC2026 #94 Round of 16: Winner Match 81 vs Winner Match 82
+DESCRIPTION:Winner Match 81 vs Winner Match 82\nMatch 94 - Round of 16\nVenue: Lumen Field\, Seattle\nKickoff: 20:00 ET
+LOCATION:Lumen Field\, Seattle
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-95@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260707T120000
+DTEND;TZID=America/New_York:20260707T140000
+SUMMARY:WC2026 #95 Round of 16: Winner Match 86 vs Winner Match 88
+DESCRIPTION:Winner Match 86 vs Winner Match 88\nMatch 95 - Round of 16\nVenue: Mercedes-Benz Stadium\, Atlanta\nKickoff: 12:00 ET
+LOCATION:Mercedes-Benz Stadium\, Atlanta
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-96@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260707T160000
+DTEND;TZID=America/New_York:20260707T180000
+SUMMARY:WC2026 #96 Round of 16: Winner Match 85 vs Winner Match 87
+DESCRIPTION:Winner Match 85 vs Winner Match 87\nMatch 96 - Round of 16\nVenue: BC Place\, Vancouver\nKickoff: 16:00 ET
+LOCATION:BC Place\, Vancouver
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-97@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260709T160000
+DTEND;TZID=America/New_York:20260709T180000
+SUMMARY:WC2026 #97 Quarter-final: Winner Match 89 vs Winner Match 90
+DESCRIPTION:Winner Match 89 vs Winner Match 90\nMatch 97 - Quarter-final\nVenue: Gillette Stadium\, Boston\nKickoff: 16:00 ET
+LOCATION:Gillette Stadium\, Boston
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-98@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260710T150000
+DTEND;TZID=America/New_York:20260710T170000
+SUMMARY:WC2026 #98 Quarter-final: Winner Match 93 vs Winner Match 94
+DESCRIPTION:Winner Match 93 vs Winner Match 94\nMatch 98 - Quarter-final\nVenue: SoFi Stadium\, Los Angeles\nKickoff: 15:00 ET
+LOCATION:SoFi Stadium\, Los Angeles
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-99@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260711T170000
+DTEND;TZID=America/New_York:20260711T190000
+SUMMARY:WC2026 #99 Quarter-final: Winner Match 91 vs Winner Match 92
+DESCRIPTION:Winner Match 91 vs Winner Match 92\nMatch 99 - Quarter-final\nVenue: Hard Rock Stadium\, Miami\nKickoff: 17:00 ET
+LOCATION:Hard Rock Stadium\, Miami
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-100@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260711T210000
+DTEND;TZID=America/New_York:20260711T230000
+SUMMARY:WC2026 #100 Quarter-final: Winner Match 95 vs Winner Match 96
+DESCRIPTION:Winner Match 95 vs Winner Match 96\nMatch 100 - Quarter-final\nVenue: Arrowhead Stadium\, Kansas City\nKickoff: 21:00 ET
+LOCATION:Arrowhead Stadium\, Kansas City
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-101@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260714T150000
+DTEND;TZID=America/New_York:20260714T170000
+SUMMARY:WC2026 #101 Semi-final: Winner Match 97 vs Winner Match 98
+DESCRIPTION:Winner Match 97 vs Winner Match 98\nMatch 101 - Semi-final\nVenue: AT&T Stadium\, Dallas\nKickoff: 15:00 ET
+LOCATION:AT&T Stadium\, Dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-102@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260715T150000
+DTEND;TZID=America/New_York:20260715T170000
+SUMMARY:WC2026 #102 Semi-final: Winner Match 99 vs Winner Match 100
+DESCRIPTION:Winner Match 99 vs Winner Match 100\nMatch 102 - Semi-final\nVenue: Mercedes-Benz Stadium\, Atlanta\nKickoff: 15:00 ET
+LOCATION:Mercedes-Benz Stadium\, Atlanta
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-103@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260718T170000
+DTEND;TZID=America/New_York:20260718T190000
+SUMMARY:WC2026 #103 Third place: Loser Match 101 vs Loser Match 102
+DESCRIPTION:Loser Match 101 vs Loser Match 102\nMatch 103 - Third place\nVenue: Hard Rock Stadium\, Miami\nKickoff: 17:00 ET
+LOCATION:Hard Rock Stadium\, Miami
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-match-104@cowork
+DTSTAMP:20260608T000000Z
+DTSTART;TZID=America/New_York:20260719T150000
+DTEND;TZID=America/New_York:20260719T170000
+SUMMARY:WC2026 #104 Final: Winner Match 101 vs Winner Match 102
+DESCRIPTION:Winner Match 101 vs Winner Match 102\nMatch 104 - Final\nVenue: MetLife Stadium\, New York/New Jersey\nKickoff: 15:00 ET
+LOCATION:MetLife Stadium\, New York/New Jersey
+END:VEVENT
+END:VCALENDAR
